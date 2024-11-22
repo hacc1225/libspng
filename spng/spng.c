@@ -6183,7 +6183,7 @@ const char *spng_version_string(void)
 #if defined(SPNG_X86)
 
 #ifndef SPNG_SSE
-    #define SPNG_SSE 1
+    #define SPNG_SSE 3
 #endif
 
 #if defined(__GNUC__) && !defined(__clang__)
