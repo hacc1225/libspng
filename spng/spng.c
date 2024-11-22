@@ -35,7 +35,7 @@
 
 #ifndef SPNG_DISABLE_OPT
 
-    #if defined(__i386__) || defined(__x86_64__) || defined(_M_IX86) || defined(_M_X64)
+    #if defined(__i386__) || defined(__x86_64__) || defined(_M_IX86) || defined(_M_X64) || defined(__EMSCRIPTEN__)
         #define SPNG_X86
 
         #if defined(__x86_64__) || defined(_M_X64)
